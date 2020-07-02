@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+
+.nav {
+    /* z-index: 1;
+    position: fixed;
+    top: 50px;
+    left: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 10px 20px;
+    box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+      0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+    border-radius: 5px; */
+    padding: 0 20px;
+    border-bottom: 1px solid #eee;
+    overflow:  hidden;
+    background-color: white;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.50);
+    height: 60px;
+    position: fix;
+    
+  }
+  
+  @media screen and (max-width: 1090px) {
+    .nav {
+      left: initial;
+      top: initial;
+      bottom: 0px;
+      width: 100%;
+    }
+  }
+  .nav #logo {
+    float: left;
+    line-height: 60px;
+  }
+  .nav input {
+    margin-top: 13px;
+    line-height: 30px;
+  }
+  .nav ul {
+    vertical-align: middle;
+    line-height: 61px;
+    float: right;
+    list-style-position: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .nav li {
+    padding: 0 10px 0 10px;
+    display: inline;
+    list-style: none;
+  }
+  
+  .nav a {
+    text-decoration: none;
+    /* color: #0008fc;
+    text-transform: uppercase;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 600; */
+  }
+  
+  .nav a:not(:last-child) {
+    margin-bottom: 20px;
+  }

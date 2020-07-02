@@ -1,0 +1,95 @@
+.feed-form{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-column-gap: 10px;
+  background-color: white;
+  padding: 10px;
+}
+.card-selector{
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  
+  text-align: center;
+}
+.feed-card{
+   width: 293px;
+   height: 293px;
+   background-color: white;
+}
+.card__userImage{
+   position: absolute;
+   background-color: rgba(var(--bb2,239,239,239),1);
+   border-radius: 50%;
+   flex-grow: 0;
+   height: 30px;
+   margin: 5px 0px 0px 10px;;
+   width: 30px;
+}
+.card__userName{
+    float: left;
+    margin: 12px 10px 0 50px
+}
+.card__userName__modal{
+   text-align: left;
+   margin: 12px 10px 0 50px
+}
+.card__content{
+   float: right;
+   margin: 12px 10px 0px 0px;
+}
+.card__content__modal{
+   text-align: left;
+   border-top-style: solid;
+   border-radius: initial;
+   padding-top: 10px;
+   padding-left: 10px;
+}
+
+.img {
+   float: left;
+}
+
+body {
+   display: flex;
+}
+.right-card {
+   display: grid;
+   grid-template-rows: 50px 200px;
+   text-align: center;
+   background-color: #888;
+   color: #fff;
+   padding-top: 50px;
+}
+
+.addUl{
+   width: 330px;
+   margin: 0;
+   list-style: none;
+   float: right;
+   background-color: aliceblue;
+   height: 600px;
+   padding: 0;
+   border-radius: 0;
+}
+
+.addP{
+   margin-top: 50%;
+   font-size: 20px;
+   font-weight: 600;
+}
+#addSubmit{
+   color: white;
+    background-color: #8f7878;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px;
+}
+.addH{
+   color: #888;
+   padding: 0 10px 0px 10px;
+}
+.submitbox{
+   padding: 10px 10px 0px 10px;
+   border: 1px solid #eeeeee;
+}

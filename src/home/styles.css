@@ -1,0 +1,107 @@
+* {
+   box-sizing: border-box;
+   font-family: "Noto Sans KR", sans-serif;
+   border-radius: 5px;
+   border: none;
+}
+body {
+   background-color: #eeeff1;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+#title {
+   font-size: 38px;
+   background-color: white;
+}
+h1.selectwork {
+   font-size: 23px;
+}
+
+.login-form {
+   margin-right: auto;
+   margin-left: auto;
+   padding: 20px 20px;
+   width: 263px;
+   background-color: white;
+}
+/* signup 약관 */
+p {
+   font-size: 11px;
+   text-align: center;
+   color: #707070;
+}
+#subtitle {
+   display: block;
+   margin-bottom: 21.4px;
+   font-size: 14px;
+   text-align: center;
+}
+
+.text-field {
+   display: table;
+   padding: 10px 10px;
+}
+input {
+   border: 1px solid rgba(var(--ca6, 219, 219, 219), 1);
+   width: 100%;
+   color: rgba(var(--i1d, 38, 38, 38), 1);
+   line-height: 18px;
+   margin-bottom: 10px;
+}
+
+.submit-btn {
+   background-color: rgba(var(--d69, 0, 149, 246), 0.3);
+   opacity: 1;
+   position: relative;
+   padding: 5px 9px;
+   text-align: center;
+   text-overflow: ellipsis;
+   width: 100%;
+   line-height: 18px;
+}
+
+.links {
+   padding: 10px 9px;
+   text-align: center;
+   font-size: 16px;
+}
+a {
+   text-decoration: none;
+}
+a.links {
+   font-size: 11px;
+}
+button {
+   width: 100%;
+   justify-content: center;
+   margin-bottom: 10px;
+}
+#google {
+   display: flex;
+   width: 100%;
+   font-size: 16px;
+   height: 36px;
+}
+
+/* -------- or ------- */
+.hr-sect {
+   display: flex;
+   flex-basis: 100%;
+   align-items: center;
+   color: rgba(0, 0, 0, 0.35);
+   font-size: 16px;
+   margin: 16px 0px;
+}
+.hr-sect::before,
+.hr-sect::after {
+   content: "";
+   flex-grow: 1;
+   background: rgba(0, 0, 0, 0.35);
+   height: 1.5px;
+   font-size: 0px;
+   line-height: 0px;
+   margin: 0px 6px;
+}
