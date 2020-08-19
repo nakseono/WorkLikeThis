@@ -6,13 +6,9 @@
 ![signUp](/ReadmeImg/signUp.png)
 ![feed](/ReadmeImg/feed.png)
 
----
-
 ## 기획 의도
 
 특정 직업을 가진 사람들이 어떠한 환경에서 어떻게 일하는지 공유하는 웹 기반의 직장인/취준생 SNS
-
----
 
 ## Using Stack
 
@@ -22,8 +18,6 @@
 - React
 - Git
 - Notion
-
----
 
 ## 프로젝트 소개
 
